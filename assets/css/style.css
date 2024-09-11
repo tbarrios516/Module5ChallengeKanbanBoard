@@ -1,0 +1,47 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+  
+  .swim-lanes {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+  }
+  
+  .lane {
+    flex-grow: 1; 
+    min-width: 300px; 
+  }
+  
+  .task-card {
+    margin: 0 auto;
+  }
+  
+  .task-card:hover {
+    cursor: grab;
+  }
+  
+  
+  .lane {
+    position: relative;
+    z-index: 1;
+  }
+  
+ 
+  .task-card {
+    z-index: 100;
+    position: relative;
+  }
+  
+  
+  .ui-draggable-dragging {
+    z-index: 1000 !important;
+  }
+  
+  
+  .drop-hover {
+    border: 2px dashed #007bff;
+  }
+  
