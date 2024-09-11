@@ -26,3 +26,5 @@ THEN the task is removed from the task board and will not be added back after re
 WHEN I refresh the page
 THEN the saved tasks persist
 ```
+
+<img width="1496" alt="Screenshot 2024-09-11 at 12 02 45 PM" src="https://github.com/user-attachments/assets/74522717-4d24-42ac-bfe8-1ee70992d8ee">
